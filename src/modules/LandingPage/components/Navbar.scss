@@ -1,0 +1,17 @@
+.NavbarContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.NavbText {
+  color: #ffffff;
+}
+
+.NavbarContainer > * {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.box-down {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
