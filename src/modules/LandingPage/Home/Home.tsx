@@ -8,7 +8,7 @@ export function HomeComponent() {
 
       <div className='BodyContainer'>
         <div className='SideLeft'>
-          <div className='SideRight'>wd</div>
+          <div className='SideRight'></div>
           <div className='box-down'>
             <p className='SideText'>Control of your business in your hands</p>
             <p className='SideText'>
