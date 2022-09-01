@@ -26,8 +26,8 @@ jobs:
         with:
           node-version: '16.x'
       - name: install packages with yarn
-        run: yarn install
+        run: npm install
       - name: Build
-        run: yarn build
+        run: npm run build
 
  
