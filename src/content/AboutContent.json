@@ -1,0 +1,16 @@
+{
+  "title": "Control your branch offices at the same time",
+  "text": "SmallBuz updates our clients with vital information about their business through e-mails or using our administrative panel.",
+  "section": [
+    {
+      "title": "Why Antd?",
+      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "icon": "notes.svg"
+    },
+    {
+      "title": "Why styled-components?",
+      "content": "Styled Components gives you total control over your components.",
+      "icon": "notes.svg"
+    }
+  ]
+}

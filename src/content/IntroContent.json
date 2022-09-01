@@ -1,0 +1,13 @@
+{
+  "title": "¡Your best friend on your business!",
+  "text": "Let us help you to have more control within your business with our App.",
+  "button": [
+    {
+      "title": "Explore"
+    },
+    {
+      "title": "Learn more",
+      "color": "#fff"
+    }
+  ]
+}
