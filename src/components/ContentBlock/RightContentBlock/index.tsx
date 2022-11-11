@@ -41,7 +41,17 @@ const RightBlock = ({
                         key={id}
                         color={item.color}
                         fixedWidth={true}
-                        onClick={() => scrollTo("about")}
+                        onClick={() => {
+                          if (item.name === "Dashboard") {
+                            const urlSite =
+                              process.env.REACT_APP_NOT_SECRET_URL;
+                            
+                            return window.location.assign(
+                              urlSite ? urlSite : ""
+                            );
+                          }
+                          return scrollTo("about");
+                        }}
                       >
                         {t(item.title)}
                       </Button>

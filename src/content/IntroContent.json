@@ -3,11 +3,13 @@
   "text": "Let us help you to have more control within your business with our App.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Explore our Dashboard",
+      "name":"Dashboard"
     },
     {
       "title": "Learn more",
-      "color": "#fff"
+      "color": "#fff",
+      "name":"LearnMore"
     }
   ]
 }
