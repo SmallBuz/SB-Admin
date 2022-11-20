@@ -7,26 +7,21 @@ import i18n from "i18next";
 import {
   FooterSection,
   Title,
-  NavLink,
   Extra,
-  LogoContainer,
   Para,
   Large,
   Chat,
   Empty,
-  FooterContainer,
   Language,
   Label,
   LanguageSwitch,
   LanguageSwitchContainer,
 } from "./styles";
 
-
 const Footer = ({ t }: any) => {
   const handleChange = (language: string) => {
     i18n.changeLanguage(language);
   };
-
 
   return (
     <>
@@ -123,10 +118,13 @@ const Footer = ({ t }: any) => {
             align="middle"
             style={{ paddingTop: "3rem" }}
           >
-            <NavLink to="/">
+            {/* 
+
+                        <NavLink to="/">
+              
               <LogoContainer>
                 <SvgIcon
-                  src="logo.svg"
+                  src="company-logo.svg"
                   aria-label="homepage"
                   width="101px"
                   height="64px"
@@ -134,7 +132,7 @@ const Footer = ({ t }: any) => {
               </LogoContainer>
             </NavLink>
             <FooterContainer>
-                          {/* 
+                        
             
               <SocialLink
                 href="https://github.com/Adrinlol/create-react-app-adrinlol"
@@ -158,9 +156,10 @@ const Footer = ({ t }: any) => {
                   alt="Buy me a pizza"
                 />
               </a>
-            */}
+            
 
             </FooterContainer>
+            */}
           </Row>
         </Container>
       </Extra>
